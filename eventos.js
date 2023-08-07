@@ -1,6 +1,8 @@
 function showAlert() {
+
     event.stopPropagation();
-    alert("hola!");
+    
+    alert("hola!"); 
 }
 
 const div = document.getElementById('container');
