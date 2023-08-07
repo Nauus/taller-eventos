@@ -1,4 +1,5 @@
 function showAlert() {
+    event.stopPropagation();
     alert("hola!");
 }
 
